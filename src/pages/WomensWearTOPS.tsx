@@ -7,6 +7,13 @@ import ProductInfoContainer from "../components/ProductInfoContainer";
 import List from "../components/List";
 import styles from "./WomensWearTOPS.module.css";
 
+const headerProps: HeaderType = {
+  containerAlignSelf: "unset",
+  containerMarginLeft: "10px",
+  containerWidth: "100%",
+  bagHref: "/path-to-bag" // Add this line
+};
+
 const WomensWearTOPS: FunctionComponent = () => {
   const navigate = useNavigate();
 
