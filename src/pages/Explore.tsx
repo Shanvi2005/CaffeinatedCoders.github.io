@@ -2,6 +2,11 @@ import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Explore.module.css";
 
+const headerProps: HeaderType = {
+  bagHref: "/path-to-bag",
+  // other properties...
+};
+
 const Explore: FunctionComponent = () => {
   const navigate = useNavigate();
 
