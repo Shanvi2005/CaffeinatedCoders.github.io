@@ -5,6 +5,14 @@ import Container3 from "../components/Container3";
 import Footer from "../components/Footer";
 import styles from "./MyntraStudioEDIT.module.css";
 
+const headerProps: HeaderType = {
+  containerAlignSelf: "unset",
+  containerMarginLeft: "10px",
+  containerWidth: "100%",
+  bagHref: "/path-to-bag" // Add this line
+};
+
+
 const MyntraStudioEDIT: FunctionComponent = () => {
   const navigate = useNavigate();
 
