@@ -8,6 +8,11 @@ import FrameComponent4 from "../components/FrameComponent4";
 import List from "../components/List";
 import styles from "./Ethnic.module.css";
 
+const headerProps: HeaderType = {
+  bagHref: "/path-to-bag",
+  // other properties...
+};
+
 const Ethnic: FunctionComponent = () => {
   const navigate = useNavigate();
 
